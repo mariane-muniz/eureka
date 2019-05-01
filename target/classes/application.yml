@@ -3,7 +3,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: http://localhost:9091/eureka
+      defaultZone: https://lotus-eureka.herokuapp.com/eureka
   instance:
     hostname: localhost
   server:
@@ -12,6 +12,6 @@ eureka:
 server:
     port: 9091
 
-logging:
-  file: eureka.log
-  path: /home/mariane/Projects/eureka/logs/
+# logging:
+#   file: eureka.log
+#   path: /home/mariane/Projects/eureka/logs/
