@@ -3,4 +3,4 @@ spring:
     name: delivery-eureka-server
   cloud:
     config:
-      uri: http://localhost:9090
+      uri: https://lotus-store-config.herokuapp.com
