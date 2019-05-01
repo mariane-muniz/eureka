@@ -8,7 +8,7 @@ eureka:
     hostname: localhost
   server:
      wait-time-in-ms-when-sync-empty: 3000
-     enableSelfPreservation: false
+     enableSelfPreservation: true
 
 server:
     port: 9091
