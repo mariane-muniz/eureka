@@ -1,0 +1,17 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://localhost:9091/eureka
+  instance:
+    hostname: localhost
+  server:
+     wait-time-in-ms-when-sync-empty: 3000
+
+server:
+    port: 9091
+
+logging:
+  file: eureka.log
+  path: /home/mariane/Projects/eureka/logs/
